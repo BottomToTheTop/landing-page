@@ -3,11 +3,13 @@ body {
     margin: 0;
 }
 
-.header {
-    display: flex;
+.header{
+    display: flex; 
     background-color: #1F2937;
-    justify-content: space-around;
-    padding: 15px;
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 .header-logo {
@@ -16,17 +18,62 @@ body {
     font-weight: bold;
 }
 
-.header ul{
+.header ul {
     display: flex;
-    list-style-type: none;
     margin: 0;
-    padding: 0;
-    align-items: center;
     gap: 20px;
-}
-
-.header ul a {
-    text-decoration: none;
+    list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
+    align-self: center;
+}
+
+
+.container {
+    display: flex;
+    padding: 100px;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 25px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+
+.hero-secondary {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.sign-up {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: grey;
+    width: 550px;
+    height: 250px;
 }
